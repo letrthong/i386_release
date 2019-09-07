@@ -1,0 +1,10 @@
+prefix=/home/thongle/connectivity/interface/linux/usr
+exec_prefix=${prefix}
+libdir=/home/thongle/connectivity/interface/linux/usr/lib/release/generic/x64
+includedir=/home/thongle/connectivity/interface/linux/usr/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.4.0
+Libs: -L${libdir} -lglog
+Cflags: -I${includedir}

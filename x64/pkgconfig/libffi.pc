@@ -1,0 +1,11 @@
+prefix=/home/thongle/connectivity/interface/linux/usr
+exec_prefix=${prefix}
+libdir=/home/thongle/connectivity/interface/linux/usr/lib/release/generic/x64
+toolexeclibdir=${libdir}/../lib
+includedir=/home/thongle/connectivity/interface/linux/usr/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3-rc0
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
